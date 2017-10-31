@@ -9,9 +9,11 @@ A project directory structure based on https://drivendata.github.io/cookiecutter
 ```
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
+├── bin                <- Binaries used by the project
 ├── data
 │   ├── derived        <- The final, canonical data sets for modeling.
-│   └── raw-data       <- The original, immutable data dump.
+│   └── raw            <- The original, immutable data dump.
+│   └── external       <- Data coming from other sources.
 │
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 │
@@ -26,6 +28,9 @@ A project directory structure based on https://drivendata.github.io/cookiecutter
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
+│
+├── scratch            <- Scratch space used to keep work in progress by different collaborators.
+│   └── work-foo       <- Individual scratch space for collaborator "foo"
 │
 └── src                <- Source code for use in this project.
 ```
