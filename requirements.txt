@@ -1,0 +1,1 @@
+[project requirements, such as obtained using `pip freeze`]
